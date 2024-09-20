@@ -29,8 +29,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Averta';
     font-display: swap;
     src: local('Averta'), local('Averta Bold'),
-    url(${avertaFont}) format('woff2'),
-    url(${avertaBoldFont}) format('woff');
+
   }
 `
 

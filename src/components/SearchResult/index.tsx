@@ -105,10 +105,10 @@ const SearchResult = (searchResultProps: SearchResultProps) => {
           <SEthHashInfo
             hash={outputAddress}
             name="Safe address:"
-            showIdenticon
+            // showIdenticon
             identiconSize="lg"
             textSize="xl"
-            network="rinkeby"
+            network="gnosis"
             showCopyBtn={isValid}
             showEtherscanBtn={isValid}
             shortenHash={isScreenWidthSmall ? 8 : 0}
