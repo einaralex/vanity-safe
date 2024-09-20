@@ -9,46 +9,10 @@ export interface NetworksConfig {
 }
 
 export const defaultNetworks: NetworksConfig = {
-  // mainnet
-  1: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
-  // rinkeby testnet
-  4: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
-  // goerli testnet
-  5: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
-  // kovan testnet
-  42: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
   // xdai
   100: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
-  // energy web chain
-  246: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
-  },
-  // energy web chain volta testnet
-  73799: {
-    masterCopyAddress: '0x6851D6fDFAfD08c0295C392436245E5bc78B0185',
-    proxyFactoryAddress: '0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B',
-    fallbackHandlerAddress: '0xd5D82B6aDDc9027B22dCA772Aa68D5d74cdBdF44'
+    masterCopyAddress: '0x3E5c63644E683549055b9Be8653de26E0B4CD36E',
+    proxyFactoryAddress: '0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2',
+    fallbackHandlerAddress: '0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4'
   }
 }

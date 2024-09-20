@@ -142,7 +142,7 @@ const SearchResult = (searchResultProps: SearchResultProps) => {
           </Button>
         ) : (
           <Link
-            href={`https://rinkeby.gnosis-safe.io/app/#/safes/${deployedAddress}`}
+            href={`https://app.safe.global/apps?safe=${deployedAddress}`}
             target="_blank"
             rel="noreferrer"
           >
