@@ -25,3 +25,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+Note:
+Would be cool to combine these two, create vanity address an then replay deployment to other chains: https://github.com/5afe/safe-contract-deployment-replay/blob/main/deploy.ts
