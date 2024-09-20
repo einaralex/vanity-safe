@@ -142,7 +142,7 @@ const SearchResult = (searchResultProps: SearchResultProps) => {
           </Button>
         ) : (
           <Link
-            href={`https://app.safe.global/apps?safe=${deployedAddress}`}
+            href={`https://app.safe.global/apps?safe=${outputAddress}`}
             target="_blank"
             rel="noreferrer"
           >
